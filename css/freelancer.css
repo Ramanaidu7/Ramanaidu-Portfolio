@@ -6213,8 +6213,8 @@ a.close.disabled {
 }
 .bg-primary-about {
     background: #000;
-  /*  margin-top: 4rem;*/
-    margin-bottom: 6rem;
+  /*  margin-top: 4rem;
+    margin-bottom: 6rem;*/
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9936,4 +9936,15 @@ h1 {
   0% {background-position: 0 0}
   0% {background-position: 100% -100%}
   }
+
+@media all and (min-width:0px) and (max-width: 812px) {
+  
+ .portfolio .portfolio-item {
+    margin-bottom: 0rem;
+    transform: unset;
+    transition: ease-in-out 1s;
+    margin-top: 0rem;
+}
+}
+
 
