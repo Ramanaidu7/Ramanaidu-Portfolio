@@ -9945,6 +9945,9 @@ h1 {
     transition: ease-in-out 1s;
     margin-top: 0rem;
 }
+nav#mainNav.navbar-shrink {
+    background: #f3ba17;
+}
 }
 
 
